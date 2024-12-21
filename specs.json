@@ -1,0 +1,58 @@
+{
+  "specs": [
+    {
+      "title": "DID /whois",
+      "spec_directory": "./spec",
+      "markdown_paths": [
+        "header.md",
+        "abstract.md",
+        "specification.md",
+        "security_and_privacy.md",
+        "definitions.md",
+        "references.md",
+        "version.md"
+      ],
+      "source": {
+        "host": "github",
+        "account": "decentralized-identity",
+        "repo": "did-whois"
+      },
+      "output_path": "./",
+      "logo": "https://raw.githubusercontent.com/decentralized-identity/did-whois/refs/heads/main/logo.jpg",
+      "logo_link": "https://github.com/decentralized-identity/did-whois",
+      "katex": true,
+      "external_specs": [
+        {
+          "linked-vp": {
+            "href": "https://identity.foundation/linked-vp/spec/v1.0.0/",
+            "title": "Linked Verifiable Presentation v1.0.0",
+            "rawDate": "2024-07-03",
+            "authors": [
+              "Jan Christoph Ebersbach",
+              "Brian Richter",
+              "Markus Sabadello"
+            ],
+            "status": "DIF Ratified Specification"
+          }
+        },
+        {
+          "didwebvh": {
+            "href": "https://identity.foundation/didwebvh/",
+            "title": "did:webvh DID Method",
+            "rawDate": "2024-12-20",
+            "authors": [
+              "Stephen Curran",
+              "John Jordan",
+              "Brian Richter",
+              "Andrew Whitehead",
+              "Michel Sahli",
+              "Martina Kolpondinos",
+              "Dmitri Zagdulin"
+            ],
+            "status": "Draft"
+          }
+        }
+      ]
+    }
+  ]
+}
